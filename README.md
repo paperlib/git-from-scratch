@@ -145,8 +145,8 @@ $ git cat-file -t b0b55c79d5342ecd3a6521d7db771dac7fc63c4a
 commit
 $ git cat-file -p b0b55c79d5342ecd3a6521d7db771dac7fc63c4a
 tree 32c4384a112bf311f54cfae69f67815b90141713
-author stephane <stephane@paperlib.com> 1672605219 +0000
-committer stephane <stephane@paperlib.com> 1672605219 +0000
+author stephane <anemail@acompany.com> 1672605219 +0000
+committer stephane <anemail@acompany.com> 1672605219 +0000
 
 awesome brief initial commit
 ```
