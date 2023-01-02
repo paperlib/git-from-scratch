@@ -5,9 +5,12 @@
 > if you want to **actually _understand_ `git`**
 > do yourself a service and go watch it!
 
+<br>
+<p align="center">
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=52MFjdGH20o" target="_blank">
  <img src="http://img.youtube.com/vi/52MFjdGH20o/maxresdefault.jpg" alt="Watch the video" width="50%" />
 </a>
+</p>
 
 # Overview
 
