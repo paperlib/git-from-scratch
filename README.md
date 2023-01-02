@@ -1,4 +1,4 @@
-# Git from Scratch: actually understanding Git!
+# Git from Scratch: actually understanding git!
 
 > [Git Internals - Creating a Repo From Scratch](https://www.youtube.com/watch?v=52MFjdGH20o)
 > is _the_ most amazing video ever created about `git`.<br>
@@ -12,7 +12,27 @@
 </a>
 </p>
 
+Other excelent resources include:
+- [Git From the Bits up](https://www.youtube.com/watch?v=MYP56QJpDr4): almost the same walkthrough as above (longer + touches on `rebase`)
+- [Deep Dive Into Git • Edward Thomson • GOTO 2015](https://www.youtube.com/watch?v=dBSHLb1B8sw)
+- [Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+
 # Overview
+
+```shell
+$ mkdir git-from-scratch
+$ cd git-from-scratch
+$ mkdir .git/objects .git/refs .git/refs/heads
+$ echo ref: refs/heads/master > .git/HEAD
+$ echo That Brief YouTube channel is indeed awesome | git hash-object --stdin -w # 57dbcd*
+$ git update-index --add --cacheinfo 100644 57dbcdd7a5e501fd6518c9d170af2c94d481508f awesome.brief.txt
+$ git cat-file -p 57dbcdd7a5e501fd6518c9d170af2c94d481508f > awesome.brief.txt
+$ git write-tree
+$ git commit-tree 32c4384a112bf311f54cfae69f67815b90141713 -m "awesome brief initial commit" # b0b55c*
+$ echo b0b55c79d5342ecd3a6521d7db771dac7fc63c4a > .git/refs/heads/master
+```
+
+# Walkthrough
 
 ```shell
 $ mkdir git-from-scratch
@@ -136,3 +156,7 @@ $ git status
 On branch master
 nothing to commit, working tree clean
 ```
+
+# Notes
+
+`$ git config --global alias.lol 'log --oneline --graph'`
