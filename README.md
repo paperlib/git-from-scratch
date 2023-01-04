@@ -56,7 +56,7 @@ $ git cat-file -p 57dbcdd7a5e501fd6518c9d170af2c94d481508f
 That Brief YouTube channel is indeed awesome
 ```
 ```
-# -- equivalent to "git add awesome.brief.txt" - TODO: partially true or fully?
+# -- equivalent to "git add awesome.brief.txt" - TODO: partially true or fully? 📌
 $ git update-index --add --cacheinfo 100644 57dbcdd7a5e501fd6518c9d170af2c94d481508f awesome.brief.txt
 ```
 ```shell
@@ -115,7 +115,8 @@ $ git cat-file -p 32c4384a112bf311f54cfae69f67815b90141713
 100644 blob 57dbcdd7a5e501fd6518c9d170af2c94d481508f    awesome.brief.txt
 ```
 ```
-$ git commit-tree 32c4384a112bf311f54cfae69f67815b90141713 -m "awesome brief initial commit"
+# -- equivalent of "git commit awesome.brief.txt" 📌
+$ git commit-tree 32c4384a112bf311f54cfae69f67815b90141713 -m "awesome brief initial commit" 
 b0b55c79d5342ecd3a6521d7db771dac7fc63c4a
 $ git status
 On branch master
