@@ -163,7 +163,7 @@ nothing to commit, working tree clean
 
 # Notes
 
-`$ git config --global alias.lol 'log --oneline --graph'`
+> `$ git config --global alias.lol 'log --oneline --graph'`
 
 ```
 $ git cat-file -t ff58d06f62f348cceb893dea4db8fdbe5173eeb8
