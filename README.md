@@ -20,7 +20,7 @@ Other excelent resources include:
 # Overview
 
 Main plumbing commands:<br>
-`git hash-object`, `git update-index`, and `git write-tree` and `git commit-tree`
+`git hash-object`, `git update-index`, and `git write-tree` and `git commit-tree` 📌
 
 ```shell
 $ mkdir git-from-scratch
