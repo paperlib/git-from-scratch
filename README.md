@@ -164,3 +164,12 @@ nothing to commit, working tree clean
 # Notes
 
 `$ git config --global alias.lol 'log --oneline --graph'`
+
+```
+$ git cat-file -t ff58d06f62f348cceb893dea4db8fdbe5173eeb8
+tree
+$ git cat-file -p ff58d06f62f348cceb893dea4db8fdbe5173eeb8
+100644 blob 299d7ef205fff43cca0a761db9cd16deb29def7a    a.first-file.txt
+$ git ls-files --stage
+100644 299d7ef205fff43cca0a761db9cd16deb29def7a 0       a.first-file.txt
+```
