@@ -92,7 +92,9 @@ Changes not staged for commit:
 $ git cat-file -p 57dbcdd7a5e501fd6518c9d170af2c94d481508f > awesome.brief.txt
 ```
 ```
-$ git write-tree
+# -- write-tree does not write out the working directory content
+# -- it writes out whatever is in the index.
+$ git write-tree 📌
 32c4384a112bf311f54cfae69f67815b90141713
 $ tree -a
 .
