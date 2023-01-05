@@ -16,6 +16,7 @@ Other excelent resources include:
 - [Git From the Bits up](https://www.youtube.com/watch?v=MYP56QJpDr4): almost the same walkthrough as above (longer + touches on `rebase`)
 - [Deep Dive Into Git • Edward Thomson • GOTO 2015](https://www.youtube.com/watch?v=dBSHLb1B8sw)
 - [Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+- [Git Internals - Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
 
 # Overview
 
