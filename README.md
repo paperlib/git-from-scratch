@@ -169,6 +169,8 @@ nothing to commit, working tree clean
 
 > `$ git config --global alias.lol 'log --oneline --graph'`
 
+> `$ git init --template=/dev/null ./git-empty-git`
+
 ```
 $ git cat-file -t ff58d06f62f348cceb893dea4db8fdbe5173eeb8
 tree
