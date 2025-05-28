@@ -1,22 +1,11 @@
-# Git from Scratch: actually understanding git!
+# Actually understanding Git!
 
-> [Git Internals - Creating a Repo From Scratch](https://www.youtube.com/watch?v=52MFjdGH20o)
-> is _the_ most amazing video ever created about `git`.<br>
-> if you want to **actually _understand_ `git`**
-> do yourself a service and go watch it!
-
-<br>
 <p align="center">
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=52MFjdGH20o" target="_blank">
  <img src="http://img.youtube.com/vi/52MFjdGH20o/maxresdefault.jpg" alt="Watch the video" width="50%" />
-</a>
+</a><br>
+<em>if you ever wanted to truly understand git, watch this video :point_up:</em>
 </p>
-
-Other excelent resources include:
-- [Git From the Bits up](https://www.youtube.com/watch?v=MYP56QJpDr4): almost the same walkthrough as above (longer + touches on `rebase`)
-- [Deep Dive Into Git • Edward Thomson • GOTO 2015](https://www.youtube.com/watch?v=dBSHLb1B8sw)
-- [Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
-- [Git Internals - Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
 
 # Intro
 
@@ -166,6 +155,13 @@ $ git status
 On branch master
 nothing to commit, working tree clean
 ```
+
+# References
+Other excelent resources include:
+- [Git From the Bits up](https://www.youtube.com/watch?v=MYP56QJpDr4): almost the same walkthrough as above (longer + touches on `rebase`)
+- [Deep Dive Into Git • Edward Thomson • GOTO 2015](https://www.youtube.com/watch?v=dBSHLb1B8sw)
+- [Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+- [Git Internals - Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
 
 # Notes
 
