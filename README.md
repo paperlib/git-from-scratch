@@ -1,11 +1,23 @@
-# Actually understanding Git!
+# Understanding Git
 
 <p align="center">
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=52MFjdGH20o" target="_blank">
  <img src="http://img.youtube.com/vi/52MFjdGH20o/maxresdefault.jpg" alt="Watch the video" width="50%" />
 </a><br>
-<em>if you ever wanted to truly understand git, watch this video :point_up:</em>
+<em>Ever wanted to truly understand git? watch this video :point_up:</em>
 </p>
+
+Consider this snippet from the always accurate [`xkcd`](https://xkcd.com/1597) [on `git`](https://xkcd.com/1597):
+
+> **How do you use `git`? _No idea_**. Just memorize these shell commands and type them to sync up.
+> If you get errors, save your work elsewhere, delete the project, and download a fresh copy.
+
+This _is_ the typical `git` workflow of too many a junior dev, and to be fair, it _is_ the typical `git` workflow
+of too many senior devs... (but shush on that.) To many devs, the very question "do you know `git`?" _is_ insulting,
+of course they know (it's beneath them), so they never bother understanding it, and then of course, never actually
+understant it.
+
+If this ever has been you.. **read on**
 
 # Intro
 
