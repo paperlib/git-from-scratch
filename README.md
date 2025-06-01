@@ -16,7 +16,16 @@ if this has ever been you.. **read on**
 
 # Intro
 
-> I hear and I forget. I see and I remember. I do and I understand. - Confucius
+> Go in fear of Abstractions - Erza Pound
+
+If _intuitiveness_, _responsiveness_, _consistency_, and _efficiency_ are among the most common properties
+of good user interfaces, _completeness_ rarely ever seems to make it to the top. And maybe understandbly so,
+since _completeness_ and _intuitiveness_ are in direct fist fight between each other.
+
+It comes to reason then that, if we limit ourselves to "surface level" intituitive (user interface) commands - like
+`git add`, `git commmit` and the likes - we will never truly understand (and master) `git`.  The minute our surface
+level abstractions break appart, we are lost, just as in the above [`xkcd`](https://xkcd.com/1597) joke.
+
 
 Main plumbing commands:<br>
 `git hash-object`, `git update-index`, and `git write-tree` and `git commit-tree` 📌
