@@ -22,16 +22,16 @@ Main plumbing commands:<br>
 `git hash-object`, `git update-index`, and `git write-tree` and `git commit-tree` 📌
 
 ```shell
-$ mkdir git-from-scratch
-$ cd git-from-scratch
-$ mkdir .git/objects .git/refs .git/refs/heads
-$ echo ref: refs/heads/master > .git/HEAD
-$ echo That Brief YouTube channel is indeed awesome | git hash-object --stdin -w # 57dbcd*
-$ git update-index --add --cacheinfo 100644 57dbcdd7a5e501fd6518c9d170af2c94d481508f awesome.brief.txt
-$ git cat-file -p 57dbcdd7a5e501fd6518c9d170af2c94d481508f > awesome.brief.txt
-$ git write-tree
-$ git commit-tree 32c4384a112bf311f54cfae69f67815b90141713 -m "awesome brief initial commit" # b0b55c*
-$ echo b0b55c79d5342ecd3a6521d7db771dac7fc63c4a > .git/refs/heads/master
+mkdir git-from-scratch
+cd git-from-scratch
+mkdir .git/objects .git/refs .git/refs/heads
+echo ref: refs/heads/master > .git/HEAD
+echo That Brief YouTube channel is indeed awesome | git hash-object --stdin -w # 57dbcd*
+git update-index --add --cacheinfo 100644 57dbcdd7a5e501fd6518c9d170af2c94d481508f awesome.brief.txt
+git cat-file -p 57dbcdd7a5e501fd6518c9d170af2c94d481508f > awesome.brief.txt
+git write-tree
+git commit-tree 32c4384a112bf311f54cfae69f67815b90141713 -m "awesome brief initial commit" # b0b55c*
+echo cb6530cefb9b25fe50feb9792b78cf94cb23df6a > .git/refs/heads/master
 ```
 
 # Walkthrough
