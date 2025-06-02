@@ -23,7 +23,7 @@ of good user interfaces, _completeness_ rarely ever seems to make it to the top.
 since _completeness_ and _intuitiveness_ are in a direct fist fight with each other.
 
 Limiting ourselves then to such "surface level" intituitive (user interface) commands - like `git add`,
-`git commmit` and the likes - means then we will never truly understand (let alone master) `git`.  The
+`git commmit` and the likes - means we will never truly understand (let alone master) `git`.  The
 minute our surface level abstractions break appart, we are lost, just as in the above
 [`xkcd`](https://xkcd.com/1597) joke.
 
