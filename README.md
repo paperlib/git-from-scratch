@@ -22,9 +22,10 @@ If _intuitiveness_, _responsiveness_, _consistency_, and _efficiency_ are among 
 of good user interfaces, _completeness_ rarely ever seems to make it to the top. And maybe understandbly so,
 since _completeness_ and _intuitiveness_ are in a direct fist fight with each other.
 
-It comes to reason then that, if we limit ourselves to "surface level" intituitive (user interface) commands - like
-`git add`, `git commmit` and the likes - we will never truly understand (and master) `git`.  The minute our surface
-level abstractions break appart, we are lost, just as in the above [`xkcd`](https://xkcd.com/1597) joke.
+Limiting ourselves then to such "surface level" intituitive (user interface) commands - like `git add`,
+`git commmit` and the likes - means then we will never truly understand (let alone master) `git`.  The
+minute our surface level abstractions break appart, we are lost, just as in the above
+[`xkcd`](https://xkcd.com/1597) joke.
 
 
 Main plumbing commands:<br>
