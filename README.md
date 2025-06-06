@@ -32,10 +32,10 @@ minute our surface level abstractions break appart, we are lost, just as in the 
 Ok so how hard would it be? To create a repo from scratch? Well, check this out:
 
 ```shell
-# -- we create a directory, and go in there
+# -- we create a directory
 mkdir git-from-scratch; cd git-from-scratch
 
-# -- and a "bunch of directories":
+# -- and a "bunch of sub-directories":
 # -- "objects" to hold our commits, and "refs" to hold aliases to those commits
 mkdir -p .git/objects .git/refs .git/refs/heads
 
