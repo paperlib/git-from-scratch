@@ -27,6 +27,22 @@ Limiting ourselves to such "surface level" intituitive (user interface) commands
 minute our surface level abstractions break appart, we are lost, just as in the above
 [`xkcd`](https://xkcd.com/1597) joke.
 
+---
+
+Ok so how hard would it be? To create a repo from scratch? Well, check this out:
+
+```shell
+# -- we create a directory, and go in there
+mkdir git-from-scratch; cd git-from-scratch
+
+# -- and a "bunch of directories":
+# -- "objects" to hold our commits, and "refs" to hold aliases to those commits
+mkdir -p .git/objects .git/refs .git/refs/heads
+
+# -- finally we decide which of those aliases should be the current one
+# -- uh ho... which branch are we on anyone? .-)
+echo ref: refs/heads/main > .git/HEAD
+```
 
 Main plumbing commands:<br>
 `git hash-object`, `git update-index`, and `git write-tree` and `git commit-tree` 📌
