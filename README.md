@@ -44,6 +44,14 @@ mkdir -p .git/objects .git/refs .git/refs/heads
 echo ref: refs/heads/main > .git/HEAD
 ```
 
+That's it.
+
+Seriously, _that's it_.
+Admitedly we still need some explaining what those references and objects there are all about, but
+we can keep this short snippet as a cheat code to our understanding of `git`. The gist of it is
+that objects contains **blob**s (litteraly the full file version, compressed), **tree**s and
+**commit**s.
+
 Main plumbing commands:<br>
 `git hash-object`, `git update-index`, and `git write-tree` and `git commit-tree` 📌
 
