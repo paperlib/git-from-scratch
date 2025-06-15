@@ -55,7 +55,7 @@ pointers to trees, with some additional metadata.
 > [!TIP]
 > Under objects we have **tree**s (ie. directories)<br>
 > which like directories contain a list of **blob**s (litteraly zipped versions of our files),<br>
-> and **commit**s, which are pointers to trees with some additional metadata (such as author, commit message, etc.)
+> and **commit**s, which are pointers to trees with some additional metadata (eg. author, commit message, etc.)
 
 Main plumbing commands:<br>
 `git hash-object`, `git update-index`, and `git write-tree` and `git commit-tree` 📌
