@@ -46,11 +46,16 @@ echo ref: refs/heads/main > .git/HEAD
 
 That's it.
 
-Seriously, _that's it_.
-Admitedly we still need some explaining what those references and objects there are all about, but
-we can keep this short snippet as a cheat code to our understanding of `git`. The gist of it is
-that objects contains **blob**s (litteraly the full file version, compressed), **tree**s and
-**commit**s.
+Admitedly we still need explaining what those references and objects are about, but we can keep
+this short snippet as a cheat code to our understanding of `git`.  The gist of it is that under
+objects we have **tree**s (ie. directories) which like directories contain a list of **blob**s
+(ie. litteraly zipped versions of your files), and **commit**s, which are
+pointers to trees, with some additional metadata.
+
+> [!TIP]
+> Under objects we have **tree**s (ie. directories)<br>
+> which like directories contain a list of **blob**s (litteraly zipped versions of our files),<br>
+> and **commit**s, which are pointers to trees with some additional metadata (such as author, commit message, etc.)
 
 Main plumbing commands:<br>
 `git hash-object`, `git update-index`, and `git write-tree` and `git commit-tree` 📌
