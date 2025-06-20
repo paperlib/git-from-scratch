@@ -55,8 +55,9 @@ pointers to trees, with some additional metadata.
 > [!NOTE]
 > `git` has 3 of its main object types live under the `objects` directory
 >
-> - **Tree**s: ie. directories, containing list of **blob**s
-> - **Blob**s: which are litteraly compressed (zipped) versions of our files
+> - **Tree**s: ie. _directories_, containing list of **blob**s<br>
+>   > additionaly **tree**s may contain **tree**s recursively like _diretories_
+> - **Blob**s: litteraly compressed (zipped) versions of our _files_ at a given point in time
 > - **Commit**s: eg. pointers to **tree**s with some additional metadata (eg. author, commit message, etc.)
 
 Main plumbing commands:<br>
