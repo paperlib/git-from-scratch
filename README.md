@@ -46,16 +46,18 @@ echo ref: refs/heads/main > .git/HEAD
 
 That's it.
 
-Admitedly we still need explaining what those references and objects are about, but we can keep
+Ok we still need explaining what those references and objects are about, but we can keep
 this short snippet as a cheat code to our understanding of `git`.  The gist of it is that under
 objects we have **tree**s (ie. directories) which like directories contain a list of **blob**s
 (ie. litteraly zipped versions of your files), and **commit**s, which are
 pointers to trees, with some additional metadata.
 
-> [!TIP]
-> Under objects we have **tree**s (ie. directories)<br>
-> which like directories contain a list of **blob**s (litteraly zipped versions of our files),<br>
-> and **commit**s, which are pointers to trees with some additional metadata (eg. author, commit message, etc.)
+> [!NOTE]
+> `git` has 3 of its main object types live under the `objects` directory
+>
+> - **Tree**s: ie. directories, containing list of **blob**s
+> - **Blob**s: which are litteraly compressed (zipped) versions of our files
+> - **Commit**s: eg. pointers to **tree**s with some additional metadata (eg. author, commit message, etc.)
 
 Main plumbing commands:<br>
 `git hash-object`, `git update-index`, and `git write-tree` and `git commit-tree` 📌
