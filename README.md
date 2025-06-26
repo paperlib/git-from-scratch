@@ -32,25 +32,18 @@ minute our surface level abstractions break appart, we are lost, just as in the 
 Ok so how hard would it be? To create a repo from scratch? Well, check this out:
 
 ```shell
-# -- we create a directory
 mkdir git-from-scratch; cd git-from-scratch
-
-# -- and a "bunch of sub-directories":
-# -- "objects" to hold our commits, and "refs" to hold aliases to those commits
 mkdir -p .git/objects .git/refs .git/refs/heads
-
-# -- finally we decide which of those aliases should be the current one
-# -- uh ho... which branch are we on anyone? .-)
-echo ref: refs/heads/main > .git/HEAD
+echo "ref: refs/heads/main" > .git/HEAD
 ```
 
 That's it.
 
-Ok we still need explaining what those references and objects are about, but we can keep
-this short snippet as a cheat code to our understanding of `git`.  The gist of it is that under
-objects we have **tree**s (ie. directories) which like directories contain a list of **blob**s
-(ie. litteraly zipped versions of your files), and **commit**s, which are
-pointers to trees, with some additional metadata.
+Sure we still need explaining what those references and objects are.  But we can keep
+this short snippet as a cheat code to understanding `git`.  The gist of it is that under
+objects we have **tree**s which act as directories, containing list of **blob**s
+(litteraly zipped versions of your files) and **commit**s, which are
+pointers to trees (with some additional metadata.)
 
 > [!NOTE]
 > `git` has 3 of its main object types live under the `objects` directory
